@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Ruda', sans-serif;;
+}
+.fa-facebook{
+  font-size: 30px;
+}
+.fa-brands{
+  font-size: 30px;
+}
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+.fa-brands{
+  padding: 10px;
+}
+.features{
+  text-align: center;
+  padding: 40px 0px;
+}
+.services,.experience,.customers{
+  padding-bottom: 40px;
+}
+.fa-briefcase,.fa-globe,.fa-user{
+  padding-bottom: 30px;
+}
+.slide-text h1{
+  color: white;
+  font-size: 30px;
+}
+.section-one h5{
+  color:white;
+}
+.footer{
+  background-color: #192332;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.section-one h4{
+  text-align: center;
+}
+.section-two{
+  color: white;
+}
+.copyright{
+  color: black;
+  background-color: #eda10c;
+  text-align: center;
+  padding: 20px;
+}
+.parallax{
+  background-image: url("images/image.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+
+
+}
+.top-bar{
+  background-color: #eda10c;
+  padding: 15px;
+}
+.about-us{
+  text-align: center;
+  padding: 20px;
+}
+@media only screen and (min-width: 600px){
+.features{
+  display: flex;
+  flex-direction: row;
+}
+.about-us{
+  text-align: left;
+}
+}
